@@ -34,13 +34,6 @@ public class MainPage {
         stage.setScene(new Scene(root, stage.getScene().getWidth(), stage.getScene().getHeight()));
     }
 
-    private void PasswordExeption(){
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Ошибка");
-        alert.setHeaderText("Сообщение об ошибке");
-        alert.setContentText("Проверьте введённый пароль");
-        alert.showAndWait();
-    }
 
     public void handleButtonActionAdmin(ActionEvent actionEvent) throws IOException{
         TextInputDialog dialog = new TextInputDialog("");
